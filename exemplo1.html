@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+<body>
+    <script language="javascript">
+        var a, b, i;
+        a = new Array();
+        for(i=0; i<10; ++i)
+        {
+            a[i] = 0;
+        }
+
+    
+        document.write("Tamanho do array: " + a.length + "<br>");
+
+        a[5] = 7; 
+
+        document.write("Tamanho do array: " + a.length + "<br>");
+
+        a[3] = 3;
+        for(i=0; i<a.length; ++i)
+        {
+        document.write("a[" + i + "]: " + a[i] + "<br>");
+        }
+
+        b = new Array(12, 6, 4, 9, 0, 0, 6, 10, 7, 5);
+        for(i=0; i<b.length; ++i)
+        {
+        document.write("b[" + i + "]: " + b[i] + "<br>");
+        }
+
+    </script>
+
+    
+</body>
+</html>
